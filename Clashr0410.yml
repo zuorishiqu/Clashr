@@ -5,63 +5,87 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 亞洲A60M, server: sakura.tsutsu.top, port: 44344, type: vmess, uuid: 8d87fe7f-f123-43ef-923c-8102322490c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sakura.tsutsu.top}}
-  - {name: 亞洲B45M, server: 99.83.249.22, port: 32315, type: vmess, uuid: 450474f7-9727-4879-950e-3a5a920875e6, alterId: 1, cipher: auto, tls: false}
-  - {name: 亞洲C30M, server: 20.xxft-node.xyz, port: 52220, type: vmess, uuid: f43d5542-6f95-3e02-8ca7-e6367924fd59, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /en-us, ws-headers: {Host: microsoft.com}}
-  - {name: 歐洲A30M, server: 194.37.98.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 歐洲B25M, server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 歐洲C25M, server: 5.157.13.101, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 美國A25M, server: 208.78.41.197, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 美國B25M, server: 89.187.187.66, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 美國C20M, server: 192.154.255.52, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 20年12月美國a5-10M, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 422-27M🇺🇸, server: 156.146.33.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 422-25M🇹🇼, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇬🇧 408-1.8M英國14, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇲 422-25MPool_🇺🇸US_2271, server: 212.102.44.81, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 408-25M, server: 212.102.44.96, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 422-23M🇺🇸, server: 74.119.146.131, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 422-23M🇬🇧, server: 37.10.114.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 408-22M, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 422-20M🇨🇿, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 422-18M🇷🇴, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 422-18M🇩🇰, server: 2.58.46.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 422-18MPool_🇺🇸US_2478, server: 212.102.44.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 422-18MPool_🇺🇸US_2650, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇦🇷 422-18MPool_🇦🇷AR_135, server: 91.206.168.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 408-21M英國18, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 408-15M, server: 185.124.240.153, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亞洲A60M
-      - 亞洲B45M
-      - 亞洲C30M
-      - 歐洲A30M
-      - 歐洲B25M
-      - 歐洲C25M
-      - 美國A25M
-      - 美國B25M
-      - 美國C20M
-      - 🇺🇲 20年12月美國a5-10M
+      - 422-27M🇺🇸
+      - 422-25M🇹🇼
+      - 🇬🇧 408-1.8M英國14
+      - 🇺🇲 422-25MPool_🇺🇸US_2271
+      - 408-25M
+      - 422-23M🇺🇸
+      - 422-23M🇬🇧
+      - 408-22M
+      - 422-20M🇨🇿
+      - 422-18M🇷🇴
+      - 422-18M🇩🇰
+      - 🇺🇲 422-18MPool_🇺🇸US_2478
+      - 🇺🇲 422-18MPool_🇺🇸US_2650
+      - 🇦🇷 422-18MPool_🇦🇷AR_135
+      - 🇬🇧 408-21M英國18
+      - 408-15M
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 亞洲A60M
-      - 亞洲B45M
-      - 亞洲C30M
-      - 歐洲A30M
-      - 歐洲B25M
-      - 歐洲C25M
-      - 美國A25M
-      - 美國B25M
-      - 美國C20M
-      - 🇺🇲 20年12月美國a5-10M
+      - 422-27M🇺🇸
+      - 422-25M🇹🇼
+      - 🇬🇧 408-1.8M英國14
+      - 🇺🇲 422-25MPool_🇺🇸US_2271
+      - 408-25M
+      - 422-23M🇺🇸
+      - 422-23M🇬🇧
+      - 408-22M
+      - 422-20M🇨🇿
+      - 422-18M🇷🇴
+      - 422-18M🇩🇰
+      - 🇺🇲 422-18MPool_🇺🇸US_2478
+      - 🇺🇲 422-18MPool_🇺🇸US_2650
+      - 🇦🇷 422-18MPool_🇦🇷AR_135
+      - 🇬🇧 408-21M英國18
+      - 408-15M
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亞洲A60M
-      - 亞洲B45M
-      - 亞洲C30M
-      - 歐洲A30M
-      - 歐洲B25M
-      - 歐洲C25M
-      - 美國A25M
-      - 美國B25M
-      - 美國C20M
-      - 🇺🇲 20年12月美國a5-10M
+      - 422-27M🇺🇸
+      - 422-25M🇹🇼
+      - 🇬🇧 408-1.8M英國14
+      - 🇺🇲 422-25MPool_🇺🇸US_2271
+      - 408-25M
+      - 422-23M🇺🇸
+      - 422-23M🇬🇧
+      - 408-22M
+      - 422-20M🇨🇿
+      - 422-18M🇷🇴
+      - 422-18M🇩🇰
+      - 🇺🇲 422-18MPool_🇺🇸US_2478
+      - 🇺🇲 422-18MPool_🇺🇸US_2650
+      - 🇦🇷 422-18MPool_🇦🇷AR_135
+      - 🇬🇧 408-21M英國18
+      - 408-15M
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -72,30 +96,42 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 亞洲A60M
-      - 亞洲B45M
-      - 亞洲C30M
-      - 歐洲A30M
-      - 歐洲B25M
-      - 歐洲C25M
-      - 美國A25M
-      - 美國B25M
-      - 美國C20M
-      - 🇺🇲 20年12月美國a5-10M
+      - 422-27M🇺🇸
+      - 422-25M🇹🇼
+      - 🇬🇧 408-1.8M英國14
+      - 🇺🇲 422-25MPool_🇺🇸US_2271
+      - 408-25M
+      - 422-23M🇺🇸
+      - 422-23M🇬🇧
+      - 408-22M
+      - 422-20M🇨🇿
+      - 422-18M🇷🇴
+      - 422-18M🇩🇰
+      - 🇺🇲 422-18MPool_🇺🇸US_2478
+      - 🇺🇲 422-18MPool_🇺🇸US_2650
+      - 🇦🇷 422-18MPool_🇦🇷AR_135
+      - 🇬🇧 408-21M英國18
+      - 408-15M
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
-      - 亞洲A60M
-      - 亞洲B45M
-      - 亞洲C30M
-      - 歐洲A30M
-      - 歐洲B25M
-      - 歐洲C25M
-      - 美國A25M
-      - 美國B25M
-      - 美國C20M
-      - 🇺🇲 20年12月美國a5-10M
+      - 422-27M🇺🇸
+      - 422-25M🇹🇼
+      - 🇬🇧 408-1.8M英國14
+      - 🇺🇲 422-25MPool_🇺🇸US_2271
+      - 408-25M
+      - 422-23M🇺🇸
+      - 422-23M🇬🇧
+      - 408-22M
+      - 422-20M🇨🇿
+      - 422-18M🇷🇴
+      - 422-18M🇩🇰
+      - 🇺🇲 422-18MPool_🇺🇸US_2478
+      - 🇺🇲 422-18MPool_🇺🇸US_2650
+      - 🇦🇷 422-18MPool_🇦🇷AR_135
+      - 🇬🇧 408-21M英國18
+      - 408-15M
       - 🎯 全球直连
   - name: 🍎 苹果服务
     type: select
@@ -103,16 +139,22 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 亞洲A60M
-      - 亞洲B45M
-      - 亞洲C30M
-      - 歐洲A30M
-      - 歐洲B25M
-      - 歐洲C25M
-      - 美國A25M
-      - 美國B25M
-      - 美國C20M
-      - 🇺🇲 20年12月美國a5-10M
+      - 422-27M🇺🇸
+      - 422-25M🇹🇼
+      - 🇬🇧 408-1.8M英國14
+      - 🇺🇲 422-25MPool_🇺🇸US_2271
+      - 408-25M
+      - 422-23M🇺🇸
+      - 422-23M🇬🇧
+      - 408-22M
+      - 422-20M🇨🇿
+      - 422-18M🇷🇴
+      - 422-18M🇩🇰
+      - 🇺🇲 422-18MPool_🇺🇸US_2478
+      - 🇺🇲 422-18MPool_🇺🇸US_2650
+      - 🇦🇷 422-18MPool_🇦🇷AR_135
+      - 🇬🇧 408-21M英國18
+      - 408-15M
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -128,16 +170,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亞洲A60M
-      - 亞洲B45M
-      - 亞洲C30M
-      - 歐洲A30M
-      - 歐洲B25M
-      - 歐洲C25M
-      - 美國A25M
-      - 美國B25M
-      - 美國C20M
-      - 🇺🇲 20年12月美國a5-10M
+      - 422-27M🇺🇸
+      - 422-25M🇹🇼
+      - 🇬🇧 408-1.8M英國14
+      - 🇺🇲 422-25MPool_🇺🇸US_2271
+      - 408-25M
+      - 422-23M🇺🇸
+      - 422-23M🇬🇧
+      - 408-22M
+      - 422-20M🇨🇿
+      - 422-18M🇷🇴
+      - 422-18M🇩🇰
+      - 🇺🇲 422-18MPool_🇺🇸US_2478
+      - 🇺🇲 422-18MPool_🇺🇸US_2650
+      - 🇦🇷 422-18MPool_🇦🇷AR_135
+      - 🇬🇧 408-21M英國18
+      - 408-15M
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10495,3 +10543,223 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,,🐟 漏网之鱼,dns-failed
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: Pool_🇦🇱AL_22, server: 31.171.153.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3779, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3754, server: 2.58.242.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3811, server: 2.58.242.133, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3814, server: 2.58.242.131, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3773, server: 2.58.242.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3785, server: 2.58.242.133, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 408-0.4M, server: 2.58.242.131, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3824, server: 2.58.242.131, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3813, server: 2.58.242.131, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3833, server: 2.58.242.133, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3777, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 Pool_🇹🇼TW_3759, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 408-1.5M🇹🇼, server: 2.58.242.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 Pool_🇯🇵JP_2810, server: 89.187.161.24, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Pool_🇮🇪IE_2509, server: 217.138.222.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 Pool_🇺🇸US_4436, server: 89.187.187.76, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 408-0.8M波蘭01, server: 91.205.230.168, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 Pool_🇺🇸US_3988, server: 89.187.187.76, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_199, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - Pool_🇦🇱AL_22
+      - 🇨🇳 Pool_🇹🇼TW_3779
+      - 🇨🇳 Pool_🇹🇼TW_3754
+      - 🇨🇳 Pool_🇹🇼TW_3811
+      - 🇨🇳 Pool_🇹🇼TW_3814
+      - 🇨🇳 Pool_🇹🇼TW_3773
+      - 🇨🇳 Pool_🇹🇼TW_3785
+      - 408-0.4M
+      - 🇨🇳 Pool_🇹🇼TW_3824
+      - 🇨🇳 Pool_🇹🇼TW_3813
+      - 🇨🇳 Pool_🇹🇼TW_3833
+      - 🇨🇳 Pool_🇹🇼TW_3777
+      - 🇨🇳 Pool_🇹🇼TW_3759
+      - 408-1.5M🇹🇼
+      - 🇯🇵 Pool_🇯🇵JP_2810
+      - Pool_🇮🇪IE_2509
+      - 🇺🇲 Pool_🇺🇸US_4436
+      - 408-0.8M波蘭01
+      - 🇺🇲 Pool_🇺🇸US_3988
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - Pool_🇦🇱AL_22
+      - 🇨🇳 Pool_🇹🇼TW_3779
+      - 🇨🇳 Pool_🇹🇼TW_3754
+      - 🇨🇳 Pool_🇹🇼TW_3811
+      - 🇨🇳 Pool_🇹🇼TW_3814
+      - 🇨🇳 Pool_🇹🇼TW_3773
+      - 🇨🇳 Pool_🇹🇼TW_3785
+      - 408-0.4M
+      - 🇨🇳 Pool_🇹🇼TW_3824
+      - 🇨🇳 Pool_🇹🇼TW_3813
+      - 🇨🇳 Pool_🇹🇼TW_3833
+      - 🇨🇳 Pool_🇹🇼TW_3777
+      - 🇨🇳 Pool_🇹🇼TW_3759
+      - 408-1.5M🇹🇼
+      - 🇯🇵 Pool_🇯🇵JP_2810
+      - Pool_🇮🇪IE_2509
+      - 🇺🇲 Pool_🇺🇸US_4436
+      - 408-0.8M波蘭01
+      - 🇺🇲 Pool_🇺🇸US_3988
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - Pool_🇦🇱AL_22
+      - 🇨🇳 Pool_🇹🇼TW_3779
+      - 🇨🇳 Pool_🇹🇼TW_3754
+      - 🇨🇳 Pool_🇹🇼TW_3811
+      - 🇨🇳 Pool_🇹🇼TW_3814
+      - 🇨🇳 Pool_🇹🇼TW_3773
+      - 🇨🇳 Pool_🇹🇼TW_3785
+      - 408-0.4M
+      - 🇨🇳 Pool_🇹🇼TW_3824
+      - 🇨🇳 Pool_🇹🇼TW_3813
+      - 🇨🇳 Pool_🇹🇼TW_3833
+      - 🇨🇳 Pool_🇹🇼TW_3777
+      - 🇨🇳 Pool_🇹🇼TW_3759
+      - 408-1.5M🇹🇼
+      - 🇯🇵 Pool_🇯🇵JP_2810
+      - Pool_🇮🇪IE_2509
+      - 🇺🇲 Pool_🇺🇸US_4436
+      - 408-0.8M波蘭01
+      - 🇺🇲 Pool_🇺🇸US_3988
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+      - Pool_🇦🇱AL_22
+      - 🇨🇳 Pool_🇹🇼TW_3779
+      - 🇨🇳 Pool_🇹🇼TW_3754
+      - 🇨🇳 Pool_🇹🇼TW_3811
+      - 🇨🇳 Pool_🇹🇼TW_3814
+      - 🇨🇳 Pool_🇹🇼TW_3773
+      - 🇨🇳 Pool_🇹🇼TW_3785
+      - 408-0.4M
+      - 🇨🇳 Pool_🇹🇼TW_3824
+      - 🇨🇳 Pool_🇹🇼TW_3813
+      - 🇨🇳 Pool_🇹🇼TW_3833
+      - 🇨🇳 Pool_🇹🇼TW_3777
+      - 🇨🇳 Pool_🇹🇼TW_3759
+      - 408-1.5M🇹🇼
+      - 🇯🇵 Pool_🇯🇵JP_2810
+      - Pool_🇮🇪IE_2509
+      - 🇺🇲 Pool_🇺🇸US_4436
+      - 408-0.8M波蘭01
+      - 🇺🇲 Pool_🇺🇸US_3988
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - Pool_🇦🇱AL_22
+      - 🇨🇳 Pool_🇹🇼TW_3779
+      - 🇨🇳 Pool_🇹🇼TW_3754
+      - 🇨🇳 Pool_🇹🇼TW_3811
+      - 🇨🇳 Pool_🇹🇼TW_3814
+      - 🇨🇳 Pool_🇹🇼TW_3773
+      - 🇨🇳 Pool_🇹🇼TW_3785
+      - 408-0.4M
+      - 🇨🇳 Pool_🇹🇼TW_3824
+      - 🇨🇳 Pool_🇹🇼TW_3813
+      - 🇨🇳 Pool_🇹🇼TW_3833
+      - 🇨🇳 Pool_🇹🇼TW_3777
+      - 🇨🇳 Pool_🇹🇼TW_3759
+      - 408-1.5M🇹🇼
+      - 🇯🇵 Pool_🇯🇵JP_2810
+      - Pool_🇮🇪IE_2509
+      - 🇺🇲 Pool_🇺🇸US_4436
+      - 408-0.8M波蘭01
+      - 🇺🇲 Pool_🇺🇸US_3988
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
+      - 🎯 全球直连
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - Pool_🇦🇱AL_22
+      - 🇨🇳 Pool_🇹🇼TW_3779
+      - 🇨🇳 Pool_🇹🇼TW_3754
+      - 🇨🇳 Pool_🇹🇼TW_3811
+      - 🇨🇳 Pool_🇹🇼TW_3814
+      - 🇨🇳 Pool_🇹🇼TW_3773
+      - 🇨🇳 Pool_🇹🇼TW_3785
+      - 408-0.4M
+      - 🇨🇳 Pool_🇹🇼TW_3824
+      - 🇨🇳 Pool_🇹🇼TW_3813
+      - 🇨🇳 Pool_🇹🇼TW_3833
+      - 🇨🇳 Pool_🇹🇼TW_3777
+      - 🇨🇳 Pool_🇹🇼TW_3759
+      - 408-1.5M🇹🇼
+      - 🇯🇵 Pool_🇯🇵JP_2810
+      - Pool_🇮🇪IE_2509
+      - 🇺🇲 Pool_🇺🇸US_4436
+      - 408-0.8M波蘭01
+      - 🇺🇲 Pool_🇺🇸US_3988
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - Pool_🇦🇱AL_22
+      - 🇨🇳 Pool_🇹🇼TW_3779
+      - 🇨🇳 Pool_🇹🇼TW_3754
+      - 🇨🇳 Pool_🇹🇼TW_3811
+      - 🇨🇳 Pool_🇹🇼TW_3814
+      - 🇨🇳 Pool_🇹🇼TW_3773
+      - 🇨🇳 Pool_🇹🇼TW_3785
+      - 408-0.4M
+      - 🇨🇳 Pool_🇹🇼TW_3824
+      - 🇨🇳 Pool_🇹🇼TW_3813
+      - 🇨🇳 Pool_🇹🇼TW_3833
+      - 🇨🇳 Pool_🇹🇼TW_3777
+      - 🇨🇳 Pool_🇹🇼TW_3759
+      - 408-1.5M🇹🇼
+      - 🇯🇵 Pool_🇯🇵JP_2810
+      - Pool_🇮🇪IE_2509
+      - 🇺🇲 Pool_🇺🇸US_4436
+      - 408-0.8M波蘭01
+      - 🇺🇲 Pool_🇺🇸US_3988
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
