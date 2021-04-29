@@ -3,189 +3,103 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: :9090
 proxies:
-  - {name: 422-27M🇺🇸, server: 156.146.33.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 422-25M🇹🇼, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇬🇧 408-1.8M英國14, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇲 422-25MPool_🇺🇸US_2271, server: 212.102.44.81, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 408-25M, server: 212.102.44.96, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 422-23M🇺🇸, server: 74.119.146.131, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 422-23M🇬🇧, server: 37.10.114.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 408-22M, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 422-20M🇨🇿, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 422-18M🇷🇴, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 422-18M🇩🇰, server: 2.58.46.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 422-18MPool_🇺🇸US_2478, server: 212.102.44.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 422-18MPool_🇺🇸US_2650, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇦🇷 422-18MPool_🇦🇷AR_135, server: 91.206.168.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 408-21M英國18, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 408-15M, server: 185.124.240.153, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧, server: 5.226.139.216, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇩🇪, server: 185.2.100.168, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 Pool_🇺🇸US_107, server: 66.115.147.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸, server: 66.115.147.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 2, server: 66.115.182.72, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 3, server: 172.93.146.212, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: Pool_🏁ZZ_151, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 Pool_🇺🇸US_136, server: 66.115.147.79, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇬🇧 2, server: 185.134.23.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇦, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 4, server: 45.89.173.203, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇬🇧 3, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 Pool_🇷🇴RO_56, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇦🇹, server: 185.141.206.206, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
 proxy-groups:
-  - name: 🔰 节点选择
+  - name: Proxies
     type: select
     proxies:
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 422-27M🇺🇸
-      - 422-25M🇹🇼
-      - 🇬🇧 408-1.8M英國14
-      - 🇺🇲 422-25MPool_🇺🇸US_2271
-      - 408-25M
-      - 422-23M🇺🇸
-      - 422-23M🇬🇧
-      - 408-22M
-      - 422-20M🇨🇿
-      - 422-18M🇷🇴
-      - 422-18M🇩🇰
-      - 🇺🇲 422-18MPool_🇺🇸US_2478
-      - 🇺🇲 422-18MPool_🇺🇸US_2650
-      - 🇦🇷 422-18MPool_🇦🇷AR_135
-      - 🇬🇧 408-21M英國18
-      - 408-15M
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - 422-27M🇺🇸
-      - 422-25M🇹🇼
-      - 🇬🇧 408-1.8M英國14
-      - 🇺🇲 422-25MPool_🇺🇸US_2271
-      - 408-25M
-      - 422-23M🇺🇸
-      - 422-23M🇬🇧
-      - 408-22M
-      - 422-20M🇨🇿
-      - 422-18M🇷🇴
-      - 422-18M🇩🇰
-      - 🇺🇲 422-18MPool_🇺🇸US_2478
-      - 🇺🇲 422-18MPool_🇺🇸US_2650
-      - 🇦🇷 422-18MPool_🇦🇷AR_135
-      - 🇬🇧 408-21M英國18
-      - 408-15M
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 422-27M🇺🇸
-      - 422-25M🇹🇼
-      - 🇬🇧 408-1.8M英國14
-      - 🇺🇲 422-25MPool_🇺🇸US_2271
-      - 408-25M
-      - 422-23M🇺🇸
-      - 422-23M🇬🇧
-      - 408-22M
-      - 422-20M🇨🇿
-      - 422-18M🇷🇴
-      - 422-18M🇩🇰
-      - 🇺🇲 422-18MPool_🇺🇸US_2478
-      - 🇺🇲 422-18MPool_🇺🇸US_2650
-      - 🇦🇷 422-18MPool_🇦🇷AR_135
-      - 🇬🇧 408-21M英國18
-      - 408-15M
-  - name: 🌏 国内媒体
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🔰 节点选择
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🔰 节点选择
-      - 422-27M🇺🇸
-      - 422-25M🇹🇼
-      - 🇬🇧 408-1.8M英國14
-      - 🇺🇲 422-25MPool_🇺🇸US_2271
-      - 408-25M
-      - 422-23M🇺🇸
-      - 422-23M🇬🇧
-      - 408-22M
-      - 422-20M🇨🇿
-      - 422-18M🇷🇴
-      - 422-18M🇩🇰
-      - 🇺🇲 422-18MPool_🇺🇸US_2478
-      - 🇺🇲 422-18MPool_🇺🇸US_2650
-      - 🇦🇷 422-18MPool_🇦🇷AR_135
-      - 🇬🇧 408-21M英國18
-      - 408-15M
-  - name: 📲 电报信息
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - 422-27M🇺🇸
-      - 422-25M🇹🇼
-      - 🇬🇧 408-1.8M英國14
-      - 🇺🇲 422-25MPool_🇺🇸US_2271
-      - 408-25M
-      - 422-23M🇺🇸
-      - 422-23M🇬🇧
-      - 408-22M
-      - 422-20M🇨🇿
-      - 422-18M🇷🇴
-      - 422-18M🇩🇰
-      - 🇺🇲 422-18MPool_🇺🇸US_2478
-      - 🇺🇲 422-18MPool_🇺🇸US_2650
-      - 🇦🇷 422-18MPool_🇦🇷AR_135
-      - 🇬🇧 408-21M英國18
-      - 408-15M
-      - 🎯 全球直连
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - 422-27M🇺🇸
-      - 422-25M🇹🇼
-      - 🇬🇧 408-1.8M英國14
-      - 🇺🇲 422-25MPool_🇺🇸US_2271
-      - 408-25M
-      - 422-23M🇺🇸
-      - 422-23M🇬🇧
-      - 408-22M
-      - 422-20M🇨🇿
-      - 422-18M🇷🇴
-      - 422-18M🇩🇰
-      - 🇺🇲 422-18MPool_🇺🇸US_2478
-      - 🇺🇲 422-18MPool_🇺🇸US_2650
-      - 🇦🇷 422-18MPool_🇦🇷AR_135
-      - 🇬🇧 408-21M英國18
-      - 408-15M
-  - name: 🎯 全球直连
+      - HK
+      - SG
+      - JP
+      - US
+      - TW
+      - 🇬🇧
+      - 🇩🇪
+      - 🇺🇸 Pool_🇺🇸US_107
+      - 🇺🇸
+      - 🇺🇸 2
+      - 🇺🇸 3
+      - Pool_🏁ZZ_151
+      - 🇺🇸 Pool_🇺🇸US_136
+      - 🇬🇧 2
+      - 🇨🇦
+      - 🇺🇸 4
+      - 🇬🇧 3
+      - 🇷🇴 Pool_🇷🇴RO_56
+      - 🇦🇹
+  - name: Apple
     type: select
     proxies:
       - DIRECT
-  - name: 🛑 全球拦截
+      - Proxies
+  - name: MicroSoft
     type: select
     proxies:
-      - REJECT
       - DIRECT
-  - name: 🐟 漏网之鱼
+      - Proxies
+  - name: Telegram
     type: select
     proxies:
-      - 🔰 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - 422-27M🇺🇸
-      - 422-25M🇹🇼
-      - 🇬🇧 408-1.8M英國14
-      - 🇺🇲 422-25MPool_🇺🇸US_2271
-      - 408-25M
-      - 422-23M🇺🇸
-      - 422-23M🇬🇧
-      - 408-22M
-      - 422-20M🇨🇿
-      - 422-18M🇷🇴
-      - 422-18M🇩🇰
-      - 🇺🇲 422-18MPool_🇺🇸US_2478
-      - 🇺🇲 422-18MPool_🇺🇸US_2650
-      - 🇦🇷 422-18MPool_🇦🇷AR_135
-      - 🇬🇧 408-21M英國18
-      - 408-15M
+      - Proxies
+      - HK
+      - SG
+  - name: Netflix
+    type: select
+    proxies:
+      - Proxies
+      - HK
+      - SG
+      - JP
+      - US
+      - TW
+  - name: Netease
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+  - name: HKMTMedia
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - HK
+      - TW
+  - name: HK
+    type: select
+    proxies:
+      - DIRECT
+  - name: SG
+    type: select
+    proxies:
+      - DIRECT
+  - name: TW
+    type: select
+    proxies:
+      - DIRECT
+  - name: JP
+    type: select
+    proxies:
+      - DIRECT
+  - name: US
+    type: select
+    proxies:
+      - 🇺🇸 Pool_🇺🇸US_107
+      - 🇺🇸 Pool_🇺🇸US_136
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
