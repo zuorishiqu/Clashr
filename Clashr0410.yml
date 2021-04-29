@@ -3,103 +3,269 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇺🇲 Pool_🇺🇸US_110, server: 173.237.207.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇦🇹AT_34, server: 185.141.206.206, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸, server: 45.89.173.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 2, server: 66.115.147.82, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 US_1240, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
+  - {name: Pool_🇲🇽MX_3070, server: 194.41.112.9, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🏁, server: 103.156.51.68, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🏁 2, server: 103.156.50.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 Pool_🇺🇸US_119, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇴 Pool_🇷🇴RO_94, server: 193.29.107.221, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🏁 3, server: 103.156.51.2, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 🇬🇧, server: 5.226.139.216, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇩🇪, server: 185.2.100.168, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_107, server: 66.115.147.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸, server: 66.115.147.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 2, server: 66.115.182.72, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 3, server: 172.93.146.212, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 Pool_🇺🇸US_107, server: 66.115.147.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 3, server: 66.115.147.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 4, server: 66.115.182.72, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 5, server: 172.93.146.212, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: Pool_🏁ZZ_151, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_136, server: 66.115.147.79, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 Pool_🇺🇸US_136, server: 66.115.147.79, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇬🇧 2, server: 185.134.23.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇨🇦, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 4, server: 45.89.173.203, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 6, server: 45.89.173.203, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇬🇧 3, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇷🇴 Pool_🇷🇴RO_56, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇦🇹, server: 185.141.206.206, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇦🇹 2, server: 185.141.206.206, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
 proxy-groups:
-  - name: Proxies
+  - name: 🔰 节点选择
     type: select
     proxies:
-      - HK
-      - SG
-      - JP
-      - US
-      - TW
-      - 🇬🇧
-      - 🇩🇪
-      - 🇺🇸 Pool_🇺🇸US_107
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇺🇲 Pool_🇺🇸US_110
+      - Pool_🇦🇹AT_34
       - 🇺🇸
       - 🇺🇸 2
+      - 🇺🇲 US_1240
+      - Pool_🇲🇽MX_3070
+      - 🏁
+      - 🏁 2
+      - 🇺🇲 Pool_🇺🇸US_119
+      - 🇷🇴 Pool_🇷🇴RO_94
+      - 🏁 3
+      - 🇬🇧
+      - 🇩🇪
+      - 🇺🇲 Pool_🇺🇸US_107
       - 🇺🇸 3
+      - 🇺🇸 4
+      - 🇺🇸 5
       - Pool_🏁ZZ_151
-      - 🇺🇸 Pool_🇺🇸US_136
+      - 🇺🇲 Pool_🇺🇸US_136
       - 🇬🇧 2
       - 🇨🇦
-      - 🇺🇸 4
+      - 🇺🇸 6
       - 🇬🇧 3
       - 🇷🇴 Pool_🇷🇴RO_56
       - 🇦🇹
-  - name: Apple
+      - 🇦🇹 2
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 🇺🇲 Pool_🇺🇸US_110
+      - Pool_🇦🇹AT_34
+      - 🇺🇸
+      - 🇺🇸 2
+      - 🇺🇲 US_1240
+      - Pool_🇲🇽MX_3070
+      - 🏁
+      - 🏁 2
+      - 🇺🇲 Pool_🇺🇸US_119
+      - 🇷🇴 Pool_🇷🇴RO_94
+      - 🏁 3
+      - 🇬🇧
+      - 🇩🇪
+      - 🇺🇲 Pool_🇺🇸US_107
+      - 🇺🇸 3
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - Pool_🏁ZZ_151
+      - 🇺🇲 Pool_🇺🇸US_136
+      - 🇬🇧 2
+      - 🇨🇦
+      - 🇺🇸 6
+      - 🇬🇧 3
+      - 🇷🇴 Pool_🇷🇴RO_56
+      - 🇦🇹
+      - 🇦🇹 2
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇺🇲 Pool_🇺🇸US_110
+      - Pool_🇦🇹AT_34
+      - 🇺🇸
+      - 🇺🇸 2
+      - 🇺🇲 US_1240
+      - Pool_🇲🇽MX_3070
+      - 🏁
+      - 🏁 2
+      - 🇺🇲 Pool_🇺🇸US_119
+      - 🇷🇴 Pool_🇷🇴RO_94
+      - 🏁 3
+      - 🇬🇧
+      - 🇩🇪
+      - 🇺🇲 Pool_🇺🇸US_107
+      - 🇺🇸 3
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - Pool_🏁ZZ_151
+      - 🇺🇲 Pool_🇺🇸US_136
+      - 🇬🇧 2
+      - 🇨🇦
+      - 🇺🇸 6
+      - 🇬🇧 3
+      - 🇷🇴 Pool_🇷🇴RO_56
+      - 🇦🇹
+      - 🇦🇹 2
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+      - 🇺🇲 Pool_🇺🇸US_110
+      - Pool_🇦🇹AT_34
+      - 🇺🇸
+      - 🇺🇸 2
+      - 🇺🇲 US_1240
+      - Pool_🇲🇽MX_3070
+      - 🏁
+      - 🏁 2
+      - 🇺🇲 Pool_🇺🇸US_119
+      - 🇷🇴 Pool_🇷🇴RO_94
+      - 🏁 3
+      - 🇬🇧
+      - 🇩🇪
+      - 🇺🇲 Pool_🇺🇸US_107
+      - 🇺🇸 3
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - Pool_🏁ZZ_151
+      - 🇺🇲 Pool_🇺🇸US_136
+      - 🇬🇧 2
+      - 🇨🇦
+      - 🇺🇸 6
+      - 🇬🇧 3
+      - 🇷🇴 Pool_🇷🇴RO_56
+      - 🇦🇹
+      - 🇦🇹 2
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🇺🇲 Pool_🇺🇸US_110
+      - Pool_🇦🇹AT_34
+      - 🇺🇸
+      - 🇺🇸 2
+      - 🇺🇲 US_1240
+      - Pool_🇲🇽MX_3070
+      - 🏁
+      - 🏁 2
+      - 🇺🇲 Pool_🇺🇸US_119
+      - 🇷🇴 Pool_🇷🇴RO_94
+      - 🏁 3
+      - 🇬🇧
+      - 🇩🇪
+      - 🇺🇲 Pool_🇺🇸US_107
+      - 🇺🇸 3
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - Pool_🏁ZZ_151
+      - 🇺🇲 Pool_🇺🇸US_136
+      - 🇬🇧 2
+      - 🇨🇦
+      - 🇺🇸 6
+      - 🇬🇧 3
+      - 🇷🇴 Pool_🇷🇴RO_56
+      - 🇦🇹
+      - 🇦🇹 2
+      - 🎯 全球直连
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🇺🇲 Pool_🇺🇸US_110
+      - Pool_🇦🇹AT_34
+      - 🇺🇸
+      - 🇺🇸 2
+      - 🇺🇲 US_1240
+      - Pool_🇲🇽MX_3070
+      - 🏁
+      - 🏁 2
+      - 🇺🇲 Pool_🇺🇸US_119
+      - 🇷🇴 Pool_🇷🇴RO_94
+      - 🏁 3
+      - 🇬🇧
+      - 🇩🇪
+      - 🇺🇲 Pool_🇺🇸US_107
+      - 🇺🇸 3
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - Pool_🏁ZZ_151
+      - 🇺🇲 Pool_🇺🇸US_136
+      - 🇬🇧 2
+      - 🇨🇦
+      - 🇺🇸 6
+      - 🇬🇧 3
+      - 🇷🇴 Pool_🇷🇴RO_56
+      - 🇦🇹
+      - 🇦🇹 2
+  - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - Proxies
-  - name: MicroSoft
+  - name: 🛑 全球拦截
     type: select
     proxies:
+      - REJECT
       - DIRECT
-      - Proxies
-  - name: Telegram
+  - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - Proxies
-      - HK
-      - SG
-  - name: Netflix
-    type: select
-    proxies:
-      - Proxies
-      - HK
-      - SG
-      - JP
-      - US
-      - TW
-  - name: Netease
-    type: select
-    proxies:
-      - DIRECT
-      - Proxies
-  - name: HKMTMedia
-    type: select
-    proxies:
-      - DIRECT
-      - Proxies
-      - HK
-      - TW
-  - name: HK
-    type: select
-    proxies:
-      - DIRECT
-  - name: SG
-    type: select
-    proxies:
-      - DIRECT
-  - name: TW
-    type: select
-    proxies:
-      - DIRECT
-  - name: JP
-    type: select
-    proxies:
-      - DIRECT
-  - name: US
-    type: select
-    proxies:
-      - 🇺🇸 Pool_🇺🇸US_107
-      - 🇺🇸 Pool_🇺🇸US_136
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇺🇲 Pool_🇺🇸US_110
+      - Pool_🇦🇹AT_34
+      - 🇺🇸
+      - 🇺🇸 2
+      - 🇺🇲 US_1240
+      - Pool_🇲🇽MX_3070
+      - 🏁
+      - 🏁 2
+      - 🇺🇲 Pool_🇺🇸US_119
+      - 🇷🇴 Pool_🇷🇴RO_94
+      - 🏁 3
+      - 🇬🇧
+      - 🇩🇪
+      - 🇺🇲 Pool_🇺🇸US_107
+      - 🇺🇸 3
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - Pool_🏁ZZ_151
+      - 🇺🇲 Pool_🇺🇸US_136
+      - 🇬🇧 2
+      - 🇨🇦
+      - 🇺🇸 6
+      - 🇬🇧 3
+      - 🇷🇴 Pool_🇷🇴RO_56
+      - 🇦🇹
+      - 🇦🇹 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10457,223 +10623,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,,🐟 漏网之鱼,dns-failed
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
-proxies:
-  - {name: Pool_🇦🇱AL_22, server: 31.171.153.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3779, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3754, server: 2.58.242.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3811, server: 2.58.242.133, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3814, server: 2.58.242.131, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3773, server: 2.58.242.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3785, server: 2.58.242.133, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 408-0.4M, server: 2.58.242.131, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3824, server: 2.58.242.131, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3813, server: 2.58.242.131, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3833, server: 2.58.242.133, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3777, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇨🇳 Pool_🇹🇼TW_3759, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 408-1.5M🇹🇼, server: 2.58.242.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 Pool_🇯🇵JP_2810, server: 89.187.161.24, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool_🇮🇪IE_2509, server: 217.138.222.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 Pool_🇺🇸US_4436, server: 89.187.187.76, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 408-0.8M波蘭01, server: 91.205.230.168, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 Pool_🇺🇸US_3988, server: 89.187.187.76, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_199, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-proxy-groups:
-  - name: 🔰 节点选择
-    type: select
-    proxies:
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - Pool_🇦🇱AL_22
-      - 🇨🇳 Pool_🇹🇼TW_3779
-      - 🇨🇳 Pool_🇹🇼TW_3754
-      - 🇨🇳 Pool_🇹🇼TW_3811
-      - 🇨🇳 Pool_🇹🇼TW_3814
-      - 🇨🇳 Pool_🇹🇼TW_3773
-      - 🇨🇳 Pool_🇹🇼TW_3785
-      - 408-0.4M
-      - 🇨🇳 Pool_🇹🇼TW_3824
-      - 🇨🇳 Pool_🇹🇼TW_3813
-      - 🇨🇳 Pool_🇹🇼TW_3833
-      - 🇨🇳 Pool_🇹🇼TW_3777
-      - 🇨🇳 Pool_🇹🇼TW_3759
-      - 408-1.5M🇹🇼
-      - 🇯🇵 Pool_🇯🇵JP_2810
-      - Pool_🇮🇪IE_2509
-      - 🇺🇲 Pool_🇺🇸US_4436
-      - 408-0.8M波蘭01
-      - 🇺🇲 Pool_🇺🇸US_3988
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - Pool_🇦🇱AL_22
-      - 🇨🇳 Pool_🇹🇼TW_3779
-      - 🇨🇳 Pool_🇹🇼TW_3754
-      - 🇨🇳 Pool_🇹🇼TW_3811
-      - 🇨🇳 Pool_🇹🇼TW_3814
-      - 🇨🇳 Pool_🇹🇼TW_3773
-      - 🇨🇳 Pool_🇹🇼TW_3785
-      - 408-0.4M
-      - 🇨🇳 Pool_🇹🇼TW_3824
-      - 🇨🇳 Pool_🇹🇼TW_3813
-      - 🇨🇳 Pool_🇹🇼TW_3833
-      - 🇨🇳 Pool_🇹🇼TW_3777
-      - 🇨🇳 Pool_🇹🇼TW_3759
-      - 408-1.5M🇹🇼
-      - 🇯🇵 Pool_🇯🇵JP_2810
-      - Pool_🇮🇪IE_2509
-      - 🇺🇲 Pool_🇺🇸US_4436
-      - 408-0.8M波蘭01
-      - 🇺🇲 Pool_🇺🇸US_3988
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - Pool_🇦🇱AL_22
-      - 🇨🇳 Pool_🇹🇼TW_3779
-      - 🇨🇳 Pool_🇹🇼TW_3754
-      - 🇨🇳 Pool_🇹🇼TW_3811
-      - 🇨🇳 Pool_🇹🇼TW_3814
-      - 🇨🇳 Pool_🇹🇼TW_3773
-      - 🇨🇳 Pool_🇹🇼TW_3785
-      - 408-0.4M
-      - 🇨🇳 Pool_🇹🇼TW_3824
-      - 🇨🇳 Pool_🇹🇼TW_3813
-      - 🇨🇳 Pool_🇹🇼TW_3833
-      - 🇨🇳 Pool_🇹🇼TW_3777
-      - 🇨🇳 Pool_🇹🇼TW_3759
-      - 408-1.5M🇹🇼
-      - 🇯🇵 Pool_🇯🇵JP_2810
-      - Pool_🇮🇪IE_2509
-      - 🇺🇲 Pool_🇺🇸US_4436
-      - 408-0.8M波蘭01
-      - 🇺🇲 Pool_🇺🇸US_3988
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
-  - name: 🌏 国内媒体
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🔰 节点选择
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🔰 节点选择
-      - Pool_🇦🇱AL_22
-      - 🇨🇳 Pool_🇹🇼TW_3779
-      - 🇨🇳 Pool_🇹🇼TW_3754
-      - 🇨🇳 Pool_🇹🇼TW_3811
-      - 🇨🇳 Pool_🇹🇼TW_3814
-      - 🇨🇳 Pool_🇹🇼TW_3773
-      - 🇨🇳 Pool_🇹🇼TW_3785
-      - 408-0.4M
-      - 🇨🇳 Pool_🇹🇼TW_3824
-      - 🇨🇳 Pool_🇹🇼TW_3813
-      - 🇨🇳 Pool_🇹🇼TW_3833
-      - 🇨🇳 Pool_🇹🇼TW_3777
-      - 🇨🇳 Pool_🇹🇼TW_3759
-      - 408-1.5M🇹🇼
-      - 🇯🇵 Pool_🇯🇵JP_2810
-      - Pool_🇮🇪IE_2509
-      - 🇺🇲 Pool_🇺🇸US_4436
-      - 408-0.8M波蘭01
-      - 🇺🇲 Pool_🇺🇸US_3988
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
-  - name: 📲 电报信息
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - Pool_🇦🇱AL_22
-      - 🇨🇳 Pool_🇹🇼TW_3779
-      - 🇨🇳 Pool_🇹🇼TW_3754
-      - 🇨🇳 Pool_🇹🇼TW_3811
-      - 🇨🇳 Pool_🇹🇼TW_3814
-      - 🇨🇳 Pool_🇹🇼TW_3773
-      - 🇨🇳 Pool_🇹🇼TW_3785
-      - 408-0.4M
-      - 🇨🇳 Pool_🇹🇼TW_3824
-      - 🇨🇳 Pool_🇹🇼TW_3813
-      - 🇨🇳 Pool_🇹🇼TW_3833
-      - 🇨🇳 Pool_🇹🇼TW_3777
-      - 🇨🇳 Pool_🇹🇼TW_3759
-      - 408-1.5M🇹🇼
-      - 🇯🇵 Pool_🇯🇵JP_2810
-      - Pool_🇮🇪IE_2509
-      - 🇺🇲 Pool_🇺🇸US_4436
-      - 408-0.8M波蘭01
-      - 🇺🇲 Pool_🇺🇸US_3988
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
-      - 🎯 全球直连
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - Pool_🇦🇱AL_22
-      - 🇨🇳 Pool_🇹🇼TW_3779
-      - 🇨🇳 Pool_🇹🇼TW_3754
-      - 🇨🇳 Pool_🇹🇼TW_3811
-      - 🇨🇳 Pool_🇹🇼TW_3814
-      - 🇨🇳 Pool_🇹🇼TW_3773
-      - 🇨🇳 Pool_🇹🇼TW_3785
-      - 408-0.4M
-      - 🇨🇳 Pool_🇹🇼TW_3824
-      - 🇨🇳 Pool_🇹🇼TW_3813
-      - 🇨🇳 Pool_🇹🇼TW_3833
-      - 🇨🇳 Pool_🇹🇼TW_3777
-      - 🇨🇳 Pool_🇹🇼TW_3759
-      - 408-1.5M🇹🇼
-      - 🇯🇵 Pool_🇯🇵JP_2810
-      - Pool_🇮🇪IE_2509
-      - 🇺🇲 Pool_🇺🇸US_4436
-      - 408-0.8M波蘭01
-      - 🇺🇲 Pool_🇺🇸US_3988
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
-  - name: 🎯 全球直连
-    type: select
-    proxies:
-      - DIRECT
-  - name: 🛑 全球拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - Pool_🇦🇱AL_22
-      - 🇨🇳 Pool_🇹🇼TW_3779
-      - 🇨🇳 Pool_🇹🇼TW_3754
-      - 🇨🇳 Pool_🇹🇼TW_3811
-      - 🇨🇳 Pool_🇹🇼TW_3814
-      - 🇨🇳 Pool_🇹🇼TW_3773
-      - 🇨🇳 Pool_🇹🇼TW_3785
-      - 408-0.4M
-      - 🇨🇳 Pool_🇹🇼TW_3824
-      - 🇨🇳 Pool_🇹🇼TW_3813
-      - 🇨🇳 Pool_🇹🇼TW_3833
-      - 🇨🇳 Pool_🇹🇼TW_3777
-      - 🇨🇳 Pool_🇹🇼TW_3759
-      - 408-1.5M🇹🇼
-      - 🇯🇵 Pool_🇯🇵JP_2810
-      - Pool_🇮🇪IE_2509
-      - 🇺🇲 Pool_🇺🇸US_4436
-      - 408-0.8M波蘭01
-      - 🇺🇲 Pool_🇺🇸US_3988
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_199
